@@ -60,3 +60,14 @@
     * Browser Extension examples
         * Java applets, activex, flash, silverlight
 
+    * Encodings
+        * URL - %hh where HH is the ASCII hex code for the char
+        * Unicode - %uhhhh, where hhhh is the unicode code point in hex
+        * UTF8 - %B%B..., where Bs are the bytes of the UTF8 character in hex, variable length
+        * HTML - &<string>; e.g. &quot;  -- also support ascii encoding: &#xhh;
+        * Base64 - encodes binary into a specific set of ascii characters
+        * Simple Hex - e.g. just put the bits in order but use hex
+
+    * Remoting and Serialization Frameworks  <<< RESEARCH FURTHER
+        * Examples: Flex, AMF, Silverlight, WCF, Java serialized objects
+        * attempt to make the client & server "be one"? like a desktop app?
