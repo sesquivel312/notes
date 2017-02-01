@@ -34,10 +34,29 @@
         * PUT - upload "stuff?"
 
 * Web Functionality
-    
-        
+    * input sources
+        * query string
+        * REST URL path
+        * Cookies
+        * HTML body
+    * OMG JAVA
+        * open source component examples
+            * authentication: JAAS, ACEGI
+            * Presentation - SiteMesh, Tapestry
+            * ORM - Hibernate
+            * Logging - Log4J
 
-  
-  
-  
-  
+    * Client side items
+        * Forms
+            * urlencoded vs. multipart/mime
+        * Same Origin Policy
+            * content received from some origin cannot access content from any other origin
+            * enforced by the browser
+            * considerations
+                * content from origin A requests content from origin B << OK, but A can't do anything w/content returned from B
+                * script loaded from origin B ORIGIN *CAN* run in the context origin A - the assumption is that scripts != data (and therefore can't contain sensitive data)
+                * content from origin A can't read cookies or DOM data from origin B
+
+    * Browser Extension examples
+        * Java applets, activex, flash, silverlight
+
